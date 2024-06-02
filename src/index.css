@@ -38,3 +38,32 @@
   cursor: pointer;
 
 } */
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 50%, 0.8);
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: rgb(36, 223, 11);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: rgb(192, 27, 27);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
