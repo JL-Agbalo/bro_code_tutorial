@@ -1,8 +1,18 @@
 // import Card from "./Card";
-import Student from "./Student";
+// import Student from "./Student";
 // import Button from "./Button";
-import UserGreeting from "./UserGreeting"
+// import UserGreeting from "./UserGreeting"
+import List from "./List";
 function App() {
+  const fruits = [{id: 1, name: "Apple", calories: 23},
+  {id: 2, name: "Banana", calories: 21},
+  {id: 3, name: "Orange", calories: 62},
+  {id: 4, name: "Strawberry", calories: 211}];
+
+  const vegetables = [{id: 5, name: "Carrot", calories: 61},
+  {id: 6, name: "Corn", calories: 53},
+  {id: 7, name: "Eggplant", calories: 12},
+  {id: 8, name: "Potatoes", calories: 21}];
 return( 
   <>
   {/* <Card/> */}
@@ -12,9 +22,14 @@ return(
   <Student name="Fishdol" age={21}  isStudent={true}></Student>
   <Student name="Larry" ></Student> */}
   {/* <Button></Button> */}
-  <UserGreeting isLoggedIn={true} username="LenardCode"></UserGreeting>
+  {/* <UserGreeting isLoggedIn={true} username="LenardCode"></UserGreeting>
   <UserGreeting isLoggedIn={true} ></UserGreeting>
-  <UserGreeting ></UserGreeting>
+  <UserGreeting ></UserGreeting> */}
+  {/* {fruits.length > 0 ? <List items={fruits} category ="Fruits"></List> : null} */}
+  {fruits.length > 0 && <List items={fruits} category ="Fruits"></List>} 
+
+  {vegetables.length > 0 ?  <List items={vegetables} category ="Vegetables"></List>: null}
+
   </>
   );
 }
@@ -23,4 +38,4 @@ export default App
 
 
 // https://www.youtube.com/watch?v=CgkZ7MvWUAA
-// Continue 1:03mins
+// Continue 1:29mins
