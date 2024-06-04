@@ -1,8 +1,9 @@
 // import Card from "./Card";
 // import Student from "./Student";
-// import Button from "./Button";
+import Button from "./Button";
 // import UserGreeting from "./UserGreeting"
 import List from "./List";
+import ProfilePicture from "./ProfilePicture";
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
   {id: 2, name: "Banana", calories: 21},
@@ -21,14 +22,15 @@ return(
   <Student name="Fish" age={27}  isStudent={true}></Student>
   <Student name="Fishdol" age={21}  isStudent={true}></Student>
   <Student name="Larry" ></Student> */}
-  {/* <Button></Button> */}
   {/* <UserGreeting isLoggedIn={true} username="LenardCode"></UserGreeting>
   <UserGreeting isLoggedIn={true} ></UserGreeting>
   <UserGreeting ></UserGreeting> */}
   {/* {fruits.length > 0 ? <List items={fruits} category ="Fruits"></List> : null} */}
-  {fruits.length > 0 && <List items={fruits} category ="Fruits"></List>} 
+  {/* {fruits.length > 0 && <List items={fruits} category ="Fruits"></List>}  */}
 
-  {vegetables.length > 0 ?  <List items={vegetables} category ="Vegetables"></List>: null}
+  {/* {vegetables.length > 0 ?  <List items={vegetables} category ="Vegetables"></List>: null} */}
+  <Button></Button>
+  <ProfilePicture></ProfilePicture>
 
   </>
   );
