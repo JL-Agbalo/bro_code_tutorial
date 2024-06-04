@@ -4,6 +4,7 @@ import Button from "./Button";
 // import UserGreeting from "./UserGreeting"
 import List from "./List";
 import ProfilePicture from "./ProfilePicture";
+import MyComponent from "./MyComponent";
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
   {id: 2, name: "Banana", calories: 21},
@@ -30,8 +31,8 @@ return(
 
   {/* {vegetables.length > 0 ?  <List items={vegetables} category ="Vegetables"></List>: null} */}
   {/* <Button></Button> */}
-  <ProfilePicture></ProfilePicture>
-
+  {/* <ProfilePicture></ProfilePicture> */}
+  <MyComponent></MyComponent>
   </>
   );
 }
