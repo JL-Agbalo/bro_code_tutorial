@@ -1,8 +1,17 @@
 import React, {useState} from 'react'
 
 function MyComponent() {
+
+    const [name, setName] = useState("")
+    const updateName = () => {
+        setName("Lenard")
+        // console.log(name)
+    }
   return (
-    <div>MyComponent</div>
+    <div>
+        <p>Name: {name}</p>
+        <button onClick={updateName}>Set Name</button>
+    </div>
   )
 }
 
