@@ -29,7 +29,7 @@ return(
   {/* {fruits.length > 0 && <List items={fruits} category ="Fruits"></List>}  */}
 
   {/* {vegetables.length > 0 ?  <List items={vegetables} category ="Vegetables"></List>: null} */}
-  <Button></Button>
+  {/* <Button></Button> */}
   <ProfilePicture></ProfilePicture>
 
   </>
