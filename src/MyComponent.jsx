@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 function MyComponent() {
     const [age, setAge] = useState(0)
     const [name, setName] = useState("Guest")
+    const [isEmployed, setIsEmployed] = useState(false)
     const updateName = () => {
         setName("Lenard")
         // console.log(name)
@@ -12,12 +13,19 @@ function MyComponent() {
         setAge(age + 1)
         // console.log(name)
     }
+
+    const toggleEmployedStatus = () => {
+        setIsEmployed(!isEmployed)
+        // console.log(name)
+    }
   return (
     <div>
         <p>Name: {name}</p>
         <button onClick={updateName}>Set Name</button>
         <p>Age: {age}</p>
         <button onClick={incrementAge}>Increment Age</button>
+        <p>Is Employed: {isEmployed ? "Yes" : "No"}</p>
+        <button onClick={toggleEmployedStatus}> Toggle Status</button>
     </div>
   )
 }
