@@ -2,6 +2,7 @@
 // import Student from "./Student";
 import Button from "./Button";
 // import UserGreeting from "./UserGreeting"
+import Counter from "./Counter";
 import List from "./List";
 import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
@@ -33,6 +34,7 @@ return(
   {/* <Button></Button> */}
   {/* <ProfilePicture></ProfilePicture> */}
   <MyComponent></MyComponent>
+  <Counter></Counter>
   </>
   );
 }
