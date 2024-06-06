@@ -5,6 +5,7 @@ function MyComponent2() {
     const [quantity, setQuantity] = useState(1)
     const [comment, setComment] = useState("")
     const [payment, setPayment] = useState()
+    const [shipping, setShipping] = useState("Delivery")
 
     function handleNameChange(event){
         setName(event.target.value)
@@ -20,6 +21,10 @@ function MyComponent2() {
 
     function handlepaymentChange(event){
         setPayment(event.target.value)
+    }
+
+    function handleShippingChange(event){
+        setShipping(event.target.value)
     }
     return (
     <div>
@@ -37,6 +42,19 @@ function MyComponent2() {
             <option value="Giftcard">Gift Card</option>
         </select>
         <p>Payment: {payment}</p>
+    
+        <label htmlFor="">
+            <input type="radio" value="Pick Up" checked={shipping =="Pick Up"}
+                onChange={handleShippingChange}/>
+            Pick Up
+        </label>
+        <br></br>
+        <label htmlFor="">
+        <input type="radio" value="Delivery" checked={shipping =="Delivery"}
+                onChange={handleShippingChange}/>
+            Delivery
+        </label>
+        <p>Shipping: {shipping}</p>
     </div>
   )
 }
