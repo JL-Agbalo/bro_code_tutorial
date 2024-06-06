@@ -6,6 +6,7 @@ import Counter from "./Counter";
 import List from "./List";
 import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
+import MyComponent2 from "./MyComponent2";
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
   {id: 2, name: "Banana", calories: 21},
@@ -33,8 +34,9 @@ return(
   {/* {vegetables.length > 0 ?  <List items={vegetables} category ="Vegetables"></List>: null} */}
   {/* <Button></Button> */}
   {/* <ProfilePicture></ProfilePicture> */}
-  <MyComponent></MyComponent>
-  <Counter></Counter>
+  {/* <MyComponent></MyComponent> */}
+  {/* <Counter></Counter> */}
+  <MyComponent2></MyComponent2>
   </>
   );
 }
