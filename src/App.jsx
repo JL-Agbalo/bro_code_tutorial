@@ -7,6 +7,7 @@ import List from "./List";
 import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
 import MyComponent2 from "./MyComponent2";
+import ColorPicker from "./ColorPicker";
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
   {id: 2, name: "Banana", calories: 21},
@@ -36,7 +37,8 @@ return(
   {/* <ProfilePicture></ProfilePicture> */}
   {/* <MyComponent></MyComponent> */}
   {/* <Counter></Counter> */}
-  <MyComponent2></MyComponent2>
+  {/* <MyComponent2></MyComponent2> */}
+  <ColorPicker></ColorPicker>
   </>
   );
 }
