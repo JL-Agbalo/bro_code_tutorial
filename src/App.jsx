@@ -36,9 +36,9 @@ return(
   {/* <Button></Button> */}
   {/* <ProfilePicture></ProfilePicture> */}
   {/* <MyComponent></MyComponent> */}
-  {/* <Counter></Counter> */}
+  <Counter></Counter>
   {/* <MyComponent2></MyComponent2> */}
-  <ColorPicker></ColorPicker>
+  {/* <ColorPicker></ColorPicker> */}
   </>
   );
 }
@@ -47,4 +47,4 @@ export default App
 
 
 // https://www.youtube.com/watch?v=CgkZ7MvWUAA
-// Continue 1:58mins
+// Continue 1:23mins
