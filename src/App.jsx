@@ -9,6 +9,8 @@ import MyComponent from "./MyComponent";
 import MyComponent2 from "./MyComponent2";
 import ColorPicker from "./ColorPicker";
 import MyCar from "./MyCar";
+import Foods from "./Foods";
+
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
   {id: 2, name: "Banana", calories: 21},
@@ -40,7 +42,8 @@ return(
   {/* <Counter></Counter> */}
   {/* <MyComponent2></MyComponent2> */}
   {/* <ColorPicker></ColorPicker> */}
-<MyCar></MyCar>
+  {/* <MyCar></MyCar> */}
+  <Foods></Foods>
   </>
   );
 }
@@ -49,4 +52,4 @@ export default App
 
 
 // https://www.youtube.com/watch?v=CgkZ7MvWUAA
-// Continue 1:23mins
+// Continue 2:46mins
