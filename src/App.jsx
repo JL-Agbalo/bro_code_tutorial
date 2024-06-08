@@ -11,6 +11,7 @@ import ColorPicker from "./ColorPicker";
 import MyCar from "./MyCar";
 import Foods from "./Foods";
 import Cars from "./Cars";
+import ToDoList from "./ToDoList";
 
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
@@ -45,7 +46,9 @@ return(
   {/* <ColorPicker></ColorPicker> */}
   {/* <MyCar></MyCar> */}
   {/* <Foods></Foods> */}
-  <Cars></Cars>
+  {/* <Cars></Cars> */}
+  <ToDoList></ToDoList>
+  
   </>
   );
 }
