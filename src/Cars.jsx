@@ -20,7 +20,7 @@ function Cars() {
     }
 
     function handleRemoveCar(index){
-        setCars(c => c.pushfilter((_, i) => i !== index)); // if naka _ is hindi ginagamit, _ to ignote this parameter
+        setCars(c => c.filter((_, i) => i !== index)); // if naka _ is hindi ginagamit, _ to ignote this parameter
     }
 
     function handleYearChange(){
