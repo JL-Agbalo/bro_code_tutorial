@@ -10,6 +10,7 @@ import MyComponent2 from "./MyComponent2";
 import ColorPicker from "./ColorPicker";
 import MyCar from "./MyCar";
 import Foods from "./Foods";
+import Cars from "./Cars";
 
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
@@ -43,7 +44,8 @@ return(
   {/* <MyComponent2></MyComponent2> */}
   {/* <ColorPicker></ColorPicker> */}
   {/* <MyCar></MyCar> */}
-  <Foods></Foods>
+  {/* <Foods></Foods> */}
+  <Cars></Cars>
   </>
   );
 }
