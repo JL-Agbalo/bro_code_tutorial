@@ -9,7 +9,17 @@ function WandH() {
         window.addEventListener("resize", handleResize);
         console.log("Event Listerner Added");
 
-    }, [])
+        return () => {
+            window.removeEventListener("resize", handleResize)
+            console.log("Event Listerner Removed")
+        }
+
+    }, []);
+
+    useEffect(() => { 
+        document.title = `Size: ${width} x ${heigh}`
+        }, [width, heigh]);
+
     function handleResize(){
 
         setWidth(window.innerWidth)
