@@ -8,7 +8,14 @@ function UseStateEx() {
     // useEffect(() => {document.title=`Count: ${count}`});  // Runs after every re-render
 
     // useEffect(() => {document.title=`Count: ${count}`}, []); // Run only on mount
-    useEffect(() => {document.title=`Count: ${count} ${color}`}, [count, color]);
+    // useEffect(() => {document.title=`Count: ${count} ${color}`}, [count, color]);//  Runs on mount + when value changes
+    useEffect(() => {
+        document.title=`Count: ${count} ${color}`
+        return () => {
+            // Some Cleanup code
+            
+        }}
+        );
 
     function addCount(){
         setCount(c => c + 1);

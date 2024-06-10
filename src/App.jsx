@@ -13,6 +13,7 @@ import Foods from "./Foods";
 import Cars from "./Cars";
 import ToDoList from "./ToDoList";
 import UseStateEx from "./UseStateEx";
+import WandH from "./WandH";
 
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
@@ -49,7 +50,8 @@ return(
   {/* <Foods></Foods> */}
   {/* <Cars></Cars> */}
   {/* <ToDoList></ToDoList> */}
-  <UseStateEx></UseStateEx>
+  {/* <UseStateEx></UseStateEx> */}
+  <WandH></WandH>
   </>
   );
 }
