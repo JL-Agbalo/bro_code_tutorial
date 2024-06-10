@@ -7,3 +7,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # bro_code_tutorial
+
+
+
+useEffect(function, [dependencies])
+
+1. useEffect(() => {}) // Runs after every re-render
+2. useEffect(()  {}, [])  // Runs only on mount
+3.  useEffect(()  {}, [value])  // Runs only on mount + when value changes

@@ -12,6 +12,7 @@ import MyCar from "./MyCar";
 import Foods from "./Foods";
 import Cars from "./Cars";
 import ToDoList from "./ToDoList";
+import UseStateEx from "./UseStateEx";
 
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
@@ -47,8 +48,8 @@ return(
   {/* <MyCar></MyCar> */}
   {/* <Foods></Foods> */}
   {/* <Cars></Cars> */}
-  <ToDoList></ToDoList>
-  
+  {/* <ToDoList></ToDoList> */}
+  <UseStateEx></UseStateEx>
   </>
   );
 }
@@ -57,4 +58,4 @@ export default App
 
 
 // https://www.youtube.com/watch?v=CgkZ7MvWUAA
-// Continue 3:14mins
+// Continue 3:14mins 
