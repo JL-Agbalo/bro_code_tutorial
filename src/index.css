@@ -121,11 +121,6 @@
   background-color: hsl(197, 100%, 30%);
 
 }
-/* 
-body{
-  font-family: Arial, Helvetica, sans-serif;
-background-color: hsl(0,0%, 10%);
-} */
 
 .color-picker-container{
   display: flex;
@@ -252,6 +247,37 @@ li{
   margin-left: 10px;
 
 }
+
+ 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+} 
+
+.clock-container{
+
+
+}
+
+.clock{
+color: white;
+font-size: 6rem;
+font-weight: bold;
+font-family: monospace;
+text-shadow: 3px 3px 5px hsl(0, 0%, 0.75%);
+text-align: center;
+}
+
 
 
 
