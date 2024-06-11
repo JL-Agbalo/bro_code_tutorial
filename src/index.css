@@ -31,7 +31,7 @@
 /* External */
 /* .button{
   background-color: hsl(200, 100%, 50%);
-  color: white;
+  color: black;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -53,7 +53,7 @@
 .welcome-message{
   font-size: 2.5em;
   background-color: rgb(36, 223, 11);
-  color: white;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   margin: 0;
@@ -62,7 +62,7 @@
 .login-prompt{
   font-size: 2.5em;
   background-color: rgb(192, 27, 27);
-  color: white;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   margin: 0;
@@ -111,7 +111,7 @@
   font-weight: bold;
   margin: 0px 5px;
   background-color: hsl(197, 100%, 50%);
-  color: white;
+  color: black;
   bottom: none;
   border-radius: 5px;
   cursor: pointer;
@@ -129,7 +129,7 @@
 }
 
 h1{
-  color: white;
+  color: black;
   margin: 50px;
   font-size: 3rem;
 }
@@ -249,7 +249,7 @@ li{
 }
 
  
-body{
+/* body{
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("https://images.pexels.com/photos/1457812/pexels-photo-1457812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
@@ -262,7 +262,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   align-items: center;
-} 
+}  */
 
 .clock-container{
 backdrop-filter: blur(5px);
@@ -270,14 +270,21 @@ width: 50vw;
 padding: 10px 0;
 }
 
-.clock{
-color: white;
+/* .clock{
+color: black;
 font-size: 6rem;
 font-weight: bold;
 font-family: monospace;
 text-shadow: 3px 3px 5px hsl(0, 0%, 0.75%);
 text-align: center;
+} */
+
+.box{
+  border: 3px solid;
+  padding: 25px;
+
 }
+
 
 
 

@@ -1,8 +1,13 @@
 import React from 'react'
+import ComponentC from './ComponentC'
 
-function ComponentB() {
+function ComponentB(props) {
   return (
-    <div>ComponentB</div>
+    <div className='box'>
+    <h1>Component C</h1>
+        <ComponentC
+        user ={props.user}></ComponentC>
+    </div>
   )
 }
 
