@@ -17,6 +17,8 @@ import WandH from "./WandH";
 import DigitalClock from "./DigitalClock";
 import ComponentA from "./ComponentA";
 import UseRef from "./UseRef";
+import Stopwatch from "./Stopwatch";
+
 function App() {
   const fruits = [{id: 1, name: "Apple", calories: 23},
   {id: 2, name: "Banana", calories: 21},
@@ -56,8 +58,8 @@ return(
   {/* <WandH></WandH> */}
   {/* <DigitalClock></DigitalClock> */}
   {/* <ComponentA></ComponentA> */}
-  <UseRef></UseRef>
-  
+  {/* <UseRef></UseRef> */}
+  <Stopwatch></Stopwatch>
   </>
   );
 }
